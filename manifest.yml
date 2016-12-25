@@ -1,0 +1,7 @@
+---
+applications:
+- name: tomcat
+  command: bin/startup.sh
+  memory: 1024M
+  instances: 1
+  host: tomcat-cvs
